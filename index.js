@@ -7,7 +7,7 @@ const logDriverNames = function (drivers) {
 
 const logDriversByHometown = function (drivers, location) {
   if (drivers.hometown === location) {
-    console.log(driver.name)
+    console.log(drivers.name)
   }
 }
 
